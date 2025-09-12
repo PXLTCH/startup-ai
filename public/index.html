@@ -1,0 +1,198 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Startup Orchestra — Interview</title>
+  <link rel="stylesheet" href="/styles.css"/>
+</head>
+<body>
+  <nav class="topbar">
+    <div class="brand">
+      <div class="brand-logo" aria-hidden="true">✨</div>
+      <div class="brand-name">Startup <span>Orchestra</span></div>
+    </div>
+    <ul class="navlinks">
+      <li><a href="#" id="navFeature">Feature</a></li>
+      <li><a href="#" id="navHow">How it Works</a></li>
+      <li><a href="#" id="navPricing">Pricing</a></li>
+      <li><a href="#" id="navMyAnswers">My Answers</a></li>
+      <li><a href="#" id="navSignIn">Sign In</a></li>
+    </ul>
+    <a class="cta" href="#" id="getStarted">Get Started</a>
+  </nav>
+
+  <header class="hero">
+    <h1>Founder's Vision &amp; Brand Identity</h1>
+    <div class="progress-wrap">
+      <div class="progress">
+        <div id="progressBar" class="bar" style="width:0%"></div>
+      </div>
+      <div class="progress-meta">
+        <span id="progressText">0%</span>
+        <span class="sep">•</span>
+        <span id="progressLabel">Question 0 of 30</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="chat-card">
+      <div id="chat" class="chat"></div>
+
+      <div id="nameChoices" class="name-choices" style="display:none;"></div>
+      <div id="logoTools" class="logo-tools" style="display:none;">
+  <div class="logo-actions">
+    <button id="zipCurrent" class="secondary small">Download Current (ZIP)</button>
+    <button id="zipFavorites" class="secondary small">Download Favorites (ZIP)</button>
+    <label class="keep-layout"><input type="checkbox" id="keepLayoutBox"/> Keep layout, change colors</label>
+  </div>
+  <div id="paletteCard" class="palette-card"></div>
+  <div id="logoStyleChoices" class="logo-style-choices"></div>
+  <div id="previewStrip" class="preview-strip"></div>
+  <div id="favoritesTray" class="favorites-tray" style="display:none;"></div>
+</div>
+      <div id="logoChoices" class="logo-choices" style="display:none;"></div>
+
+      <div class="input-area">
+        <button class="icon-btn" title="More">＋</button>
+        <button class="icon-btn" title="Voice">🎙️</button>
+        <input id="input" type="text" placeholder="Type your answer…"/>
+        <button id="send" class="send-btn" title="Send">➜</button>
+      </div>
+
+      <div class="in-chat-buttons">
+        <button id="confirm" disabled>Confirm</button>
+        <button id="edit" class="secondary" style="display:none;">Edit</button>
+        <button id="skip">Skip</button>
+        <button id="regenNames" class="secondary" style="display:none;">Generate new names</button>
+        <button id="regenLogos" class="secondary" style="display:none;">Generate new logos</button>
+        <button id="packBtn" disabled class="primary">Generate Founder Pack</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© Startup Orchestra</span>
+  </footer>
+
+  <!-- Signup Modal (design only) -->
+  <div id="signupModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="signupTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <h2 id="signupTitle">Create your account</h2>
+
+      <form class="signup-grid" onsubmit="return false">
+        <div class="field">
+          <label>Full name</label>
+          <div class="input-wrap"><input type="text" placeholder="Your full name"/></div>
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <div class="input-wrap"><input type="email" placeholder="Your email address"/></div>
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <div class="input-wrap with-icon"><input type="password" value="12345678!!!!"/><button class="eye" type="button">👁️</button></div>
+        </div>
+        <div class="field">
+          <label>Password Again</label>
+          <div class="input-wrap with-icon"><input type="password" placeholder="********"/><button class="eye" type="button">🙈</button></div>
+        </div>
+      </form>
+
+      <label class="checkbox">
+        <input type="checkbox"/>
+        <span>I have read and agree to the <a href="#">Terms &amp; Conditions</a> and <a href="#">Privacy Policy</a>.</span>
+      </label>
+
+      <button class="register">Register</button>
+
+      <div class="oauth-row">
+        <button class="oauth">Sign in with Google</button>
+        <button class="oauth">Sign in with Apple</button>
+      </div>
+
+      <p class="signin">Already have an account? <a href="#" id="openSigninFromRegister">Sign in</a></p>
+    </div>
+  </div>
+
+  <!-- Sign In Modal (design only) -->
+  <div id="signinModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="signinTitle">
+      <button class="modal-close" id="signinClose" aria-label="Close">✕</button>
+      <h2 id="signinTitle">Sign in to continue</h2>
+
+      <form class="signup-grid" onsubmit="return false" style="grid-template-columns:1fr;">
+        <div class="field">
+          <label>Email</label>
+          <div class="input-wrap"><input type="email" placeholder="you@example.com"/></div>
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <div class="input-wrap with-icon"><input type="password" placeholder="********"/><button class="eye" type="button">👁️</button></div>
+          <div style="text-align:right;margin:6px 6px 0;"><a href="#" style="color:#6b4df0;">Forgot Password</a></div>
+        </div>
+      </form>
+
+      <button class="register">Sign In</button>
+
+      <div class="oauth-row">
+        <button class="oauth">Sign in with Google</button>
+        <button class="oauth">Sign in with Apple</button>
+      </div>
+
+      <p class="signin">Don’t you have an account? <a href="#" id="openRegisterFromSignin">Register</a></p>
+    </div>
+  </div>
+
+  <!-- Pricing Modal (design only) -->
+  <div id="pricingModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card price" role="dialog" aria-modal="true" aria-labelledby="pricingTitle">
+      <button class="modal-close" id="pricingClose" aria-label="Close">✕</button>
+      <div class="price-card">
+        <div class="top">
+          <h3 id="pricingTitle">My Startup Report</h3>
+          <div class="price">$20</div>
+        </div>
+        <div class="body">
+          <ul class="features">
+            <li>Company name, domain name</li>
+            <li>Slogan, mission, vision, core values</li>
+            <li>Brief competitor analysis</li>
+            <li>Swot analysis</li>
+            <li>Project Scoring</li>
+          </ul>
+          <div class="actions">
+            <a href="#" class="ghost">Preview</a>
+            <button class="buy">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- My Answers Modal (design only) -->
+  <div id="answersModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card answers" role="dialog" aria-modal="true" aria-labelledby="answersTitle">
+      <button class="modal-close" id="answersClose" aria-label="Close">✕</button>
+      <h2 id="answersTitle">My Answers</h2>
+      <div class="answers-meta">
+        <span id="answersCount"></span>
+        <div class="answers-actions">
+          <button id="answersExportJson" class="secondary small">Export JSON</button>
+          <button id="answersExportPdf" class="primary small">Export PDF</button>
+        </div>
+      </div>
+      <div id="answersList" class="answers-list"></div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

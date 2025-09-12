@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs><linearGradient id="g2_2_603160" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#f59e0b"/><stop offset="50%" stop-color="#ef4444"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient></defs>
+  <rect width="100%" height="100%" fill="#0b0620"/>
+  <g transform="translate(80,280) skewX(0)">
+    <text x="0" y="0" fill="url(#g2_2_603160)" font-family="Poppins" font-weight="700" font-size="88" letter-spacing="0.5">MED</text>
+  </g></svg>

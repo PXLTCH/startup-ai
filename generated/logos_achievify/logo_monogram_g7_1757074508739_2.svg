@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="100%" height="100%" fill="#0b0620"/>
+  <rect x="120" y="164" rx="38" ry="38" width="212" height="212" fill="#f43f5e"/>
+  <text x="226" y="298" text-anchor="middle" font-family="Inter" font-weight="804" font-size="120" fill="#6366f1">A</text>
+  <text x="400" y="295" font-family="Montserrat" font-weight="800" font-size="66" fill="#ffffff">Achievify</text></svg>

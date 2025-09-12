@@ -1,0 +1,137 @@
+[
+  {
+    "section": "SECTION 1: Vision, Problem, and Market",
+    "questions": [
+      {
+        "id": "vision.name",
+        "text": "Do you already have a name for your startup, or are you open to suggestions?"
+      },
+      {
+        "id": "vision.mission",
+        "text": "What is your startup\u2019s mission or overarching purpose?"
+      },
+      {
+        "id": "vision.brand",
+        "text": "Do you have a logo or tagline in mind? If not, do you have specific style preferences?"
+      },
+      {
+        "id": "problem.core",
+        "text": "What core problem or unmet need does your startup address?"
+      },
+      {
+        "id": "problem.urgency",
+        "text": "Why is this problem pressing or urgent for the people experiencing it?"
+      },
+      {
+        "id": "problem.origin",
+        "text": "What inspired you to tackle this specific problem?"
+      },
+      {
+        "id": "market.customer",
+        "text": "Who is your target audience or ideal customer? (Demographics, behaviors, etc.)"
+      },
+      {
+        "id": "market.size_segments",
+        "text": "How big is your potential market, and have you identified any secondary segments?"
+      },
+      {
+        "id": "market.validation",
+        "text": "How have you\u2014or how do you plan to\u2014validate that these customers need your solution?"
+      }
+    ]
+  },
+  {
+    "section": "SECTION 2: Product, Differentiation, and Revenue",
+    "questions": [
+      {
+        "id": "product.overview",
+        "text": "Can you describe how your product or service works at a high level?"
+      },
+      {
+        "id": "product.mvp",
+        "text": "Which features are essential to your MVP (Minimum Viable Product)?"
+      },
+      {
+        "id": "product.future",
+        "text": "What additional features or expansions do you foresee down the line?"
+      },
+      {
+        "id": "competition.players",
+        "text": "Who are your main competitors or alternatives in the market?"
+      },
+      {
+        "id": "competition.differentiation",
+        "text": "What differentiates your solution from competitors\u2019 offerings?"
+      },
+      {
+        "id": "competition.trends",
+        "text": "Are there any key trends or shifts in the market that could help or hinder your growth?"
+      },
+      {
+        "id": "revenue.model",
+        "text": "How do you plan to make money (subscription, one-time purchase, commissions, etc.)?"
+      },
+      {
+        "id": "revenue.streams",
+        "text": "Do you anticipate multiple revenue streams (partnerships, add-ons, licensing, etc.)?"
+      },
+      {
+        "id": "revenue.pricing",
+        "text": "How will you determine the right pricing model for your target customers?"
+      }
+    ]
+  },
+  {
+    "section": "SECTION 3: Execution, Team, and Growth",
+    "questions": [
+      {
+        "id": "growth.acquire",
+        "text": "How do you plan to acquire your first customers (marketing channels, partnerships, etc.)?"
+      },
+      {
+        "id": "growth.engagement",
+        "text": "What\u2019s your plan for keeping users engaged and ensuring they come back?"
+      },
+      {
+        "id": "growth.scale",
+        "text": "Once you have initial traction, how do you plan to scale (geographically, new features, etc.)?"
+      },
+      {
+        "id": "team.core",
+        "text": "Who is on your core team, and what are their roles and expertise?"
+      },
+      {
+        "id": "team.gaps",
+        "text": "Are there any critical roles or skill sets missing that you need to fill?"
+      },
+      {
+        "id": "team.partnerships",
+        "text": "Are you seeking partnerships with any organizations or individuals that could help accelerate growth?"
+      },
+      {
+        "id": "funding.stage",
+        "text": "Are you bootstrapped, pre-seed, seed, or elsewhere in the funding journey?"
+      },
+      {
+        "id": "funding.need",
+        "text": "How much capital do you need to reach your next major milestones, and for what uses?"
+      },
+      {
+        "id": "financials.forecast",
+        "text": "Do you have short- or long-term revenue/profitability forecasts?"
+      },
+      {
+        "id": "roadmap.timeline",
+        "text": "What is the development timeline for your MVP and subsequent feature releases?"
+      },
+      {
+        "id": "risk.obstacles",
+        "text": "What are the biggest potential obstacles (technical, regulatory, market acceptance, etc.)?"
+      },
+      {
+        "id": "success.definition",
+        "text": "How do you define success (e.g., market share, exit strategy, IPO, sustainable growth)?"
+      }
+    ]
+  }
+]

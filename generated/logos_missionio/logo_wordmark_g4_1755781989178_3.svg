@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs><linearGradient id="g4_3_453679" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#6b4df0"/><stop offset="50%" stop-color="#a855f7"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect width="100%" height="100%" fill="#0b0620"/>
+  <g transform="translate(80,280) skewX(4)">
+    <text x="0" y="0" fill="url(#g4_3_453679)" font-family="Montserrat" font-weight="700" font-size="88" letter-spacing="2">Missionio</text>
+  </g></svg>
